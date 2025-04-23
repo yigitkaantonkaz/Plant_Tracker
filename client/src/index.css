@@ -1,0 +1,54 @@
+/* Reset */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f7f7f7;
+  color: #333;
+}
+
+/* Reusable utilities */
+.container {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+h1, h2 {
+  color: #2a5d3d;
+}
+
+input, textarea {
+  padding: 0.6rem;
+  margin: 0.5rem 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 100%;
+  font-size: 1rem;
+}
+
+button {
+  background-color: #2a5d3d;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 0.5rem;
+}
+
+button:hover {
+  background-color: #1e4030;
+}
+
+button.cancel {
+  background-color: #bbb;
+  margin-left: 0.5rem;
+}
+
+button.cancel:hover {
+  background-color: #999;
+}
