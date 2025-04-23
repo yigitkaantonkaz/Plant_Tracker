@@ -2,6 +2,10 @@
 
 A full-stack web application to track plant growth visually over time using pod-specific image uploads.
 
+## 🎥 Demo
+
+![Demo](/demo.gif)
+
 ---
 
 ## 📌 Core Functionality
